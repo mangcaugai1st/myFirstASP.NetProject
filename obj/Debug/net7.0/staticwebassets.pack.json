@@ -245,6 +245,18 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\emoji\\big_smile.webp",
+      "PackagePath": "staticwebassets\\resource\\emoji\\big_smile.webp"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\gif\\tumblr_f50494bc5811f9ed93096513dd7077ff_ed013a64_1280.gif",
+      "PackagePath": "staticwebassets\\resource\\gif\\tumblr_f50494bc5811f9ed93096513dd7077ff_ed013a64_1280.gif"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\b0d13e7688b816f773b986777f10568e.jpg",
+      "PackagePath": "staticwebassets\\resource\\image\\b0d13e7688b816f773b986777f10568e.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ASP.netMVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

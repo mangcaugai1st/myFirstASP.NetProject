@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5MruhQviScDNTS4VoYJkhdbD0BXhcZVMNWPW0hFVsYI=",
+  "Hash": "Xt8lBuCBONB/AWAxWyGNVp6kcURp60R9J9DftsnUmjU=",
   "Source": "ASP.netMVC",
   "BasePath": "_content/ASP.netMVC",
   "Mode": "Default",
@@ -1069,6 +1069,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\ASP.netMVC\\wwwroot\\resource\\emoji\\big_smile.webp",
+      "SourceId": "ASP.netMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.netMVC\\wwwroot\\",
+      "BasePath": "_content/ASP.netMVC",
+      "RelativePath": "resource/emoji/big_smile.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\emoji\\big_smile.webp"
+    },
+    {
+      "Identity": "D:\\ASP.netMVC\\wwwroot\\resource\\gif\\tumblr_f50494bc5811f9ed93096513dd7077ff_ed013a64_1280.gif",
+      "SourceId": "ASP.netMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.netMVC\\wwwroot\\",
+      "BasePath": "_content/ASP.netMVC",
+      "RelativePath": "resource/gif/tumblr_f50494bc5811f9ed93096513dd7077ff_ed013a64_1280.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\gif\\tumblr_f50494bc5811f9ed93096513dd7077ff_ed013a64_1280.gif"
+    },
+    {
+      "Identity": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\b0d13e7688b816f773b986777f10568e.jpg",
+      "SourceId": "ASP.netMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.netMVC\\wwwroot\\",
+      "BasePath": "_content/ASP.netMVC",
+      "RelativePath": "resource/image/b0d13e7688b816f773b986777f10568e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image\\b0d13e7688b816f773b986777f10568e.jpg"
     }
   ]
 }

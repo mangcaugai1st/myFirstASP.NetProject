@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\resource\emoji\" />
+    <Folder Include="wwwroot\resource\gif\" />
+    <Folder Include="wwwroot\resource\image\" />
+  </ItemGroup>
+
 </Project>
