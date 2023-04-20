@@ -22,6 +22,28 @@ public class HomeController : Controller
     {
         return View();
     }
+    [HttpPost]
+    public IActionResult A(double nDegrees, string temperatureUnit)
+    {
+        double a = nDegrees;
+        string b = temperatureUnit;
+        double result;
+        string resultWithUnitSymbol;
+        switch (b)
+        {
+            case "Fahrenheit":
+                result = (5*a - 160)/9;
+                resultWithUnitSymbol = string.Concat(Math.Round(result, 2), "°C");
+                ViewBag.ResultWithUnitSymbol = resultWithUnitSymbol;
+                break; 
+            case "Celsius":
+                result = (9 * a / 5) + 32;
+                resultWithUnitSymbol = string.Concat(Math.Round(result, 2), "°F");
+                ViewBag.ResultWithUnitSymbol = resultWithUnitSymbol;
+                break;
+        }
+        return View();
+    }
     public IActionResult B()
     {
         return View();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xt8lBuCBONB/AWAxWyGNVp6kcURp60R9J9DftsnUmjU=",
+  "Hash": "x9V+Cj4j4jmb83U3oVrSBhibb/qtEu6siyqP5W1hvC0=",
   "Source": "ASP.netMVC",
   "BasePath": "_content/ASP.netMVC",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\resource\\image\\b0d13e7688b816f773b986777f10568e.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\convert-temperature-icon.jpg",
+      "SourceId": "ASP.netMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.netMVC\\wwwroot\\",
+      "BasePath": "_content/ASP.netMVC",
+      "RelativePath": "resource/image/convert-temperature-icon.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\resource\\image\\convert-temperature-icon.jpg"
     }
   ]
 }
