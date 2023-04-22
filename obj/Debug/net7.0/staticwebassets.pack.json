@@ -253,12 +253,76 @@
       "PackagePath": "staticwebassets\\resource\\gif\\tumblr_f50494bc5811f9ed93096513dd7077ff_ed013a64_1280.gif"
     },
     {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Battery report.png",
+      "PackagePath": "staticwebassets\\resource\\image\\Battery report.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Fedora_Logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\Fedora_Logo.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Genshin_Impact_Logo.webp",
+      "PackagePath": "staticwebassets\\resource\\image\\Genshin_Impact_Logo.webp"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\NierAutomata.webp",
+      "PackagePath": "staticwebassets\\resource\\image\\NierAutomata.webp"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\OpenSUSE_Logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\OpenSUSE_Logo.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Red-Hat-logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\Red-Hat-logo.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\SSD_Report.png",
+      "PackagePath": "staticwebassets\\resource\\image\\SSD_Report.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\ThinkPad-logo.webp",
+      "PackagePath": "staticwebassets\\resource\\image\\ThinkPad-logo.webp"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Ubuntu-Logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\Ubuntu-Logo.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Visual-Studio-Logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\Visual-Studio-Logo.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\VisualStudioLogo.jpg",
+      "PackagePath": "staticwebassets\\resource\\image\\VisualStudioLogo.jpg"
+    },
+    {
       "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\b0d13e7688b816f773b986777f10568e.jpg",
       "PackagePath": "staticwebassets\\resource\\image\\b0d13e7688b816f773b986777f10568e.jpg"
     },
     {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\btw_i_use_arch.jpg",
+      "PackagePath": "staticwebassets\\resource\\image\\btw_i_use_arch.jpg"
+    },
+    {
       "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\convert-temperature-icon.jpg",
       "PackagePath": "staticwebassets\\resource\\image\\convert-temperature-icon.jpg"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\gentoo-linux-logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\gentoo-linux-logo.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\microsoftlovelinux.jpg",
+      "PackagePath": "staticwebassets\\resource\\image\\microsoftlovelinux.jpg"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\phpstorm_logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\phpstorm_logo.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\rider_logo.png",
+      "PackagePath": "staticwebassets\\resource\\image\\rider_logo.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ASP.netMVC.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,5 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Bài viết";
+    ViewBag.Title = "Bài viết";
+    Layout = "_Layout";
 }
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -9,10 +10,10 @@
 </nav>
 <div class="row shadow-sm p-3 mb-5 bg-white rounded">
     <div class="col-md-4">
-        <img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/03/asp-net-core-dotnet-8-preview-2-1024x576.png" data-src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/03/asp-net-core-dotnet-8-preview-2-1024x576.png" class="img-fluid" alt="" width="640" height="360">
+        <a href="@Url.Action("ThinkPad_E590", "A")"><img src="~/resource/image/ThinkPad-logo.webp" data-src="" class="img-fluid" alt="" width="640" height="360"></a>
     </div>
     <div class="col-md-8">
-        <h2>ASP.NET Core updates in .NET 8 Preview 2</h2>
+        <h2><a class="link-offset-2 link-underline-opacity-0 text-decoration-none" href="@Url.Action("ThinkPad_E590", "A")" style="color: var(--bs-body-color)">Review ThinkPad E590 sau 4 năm sử dụng</a></h2>
     </div>
 </div>
 <div class="row shadow-sm p-3 mb-5 bg-white rounded" id="accordion">
@@ -53,7 +54,6 @@
         </div>
     </div>
 </div>
-
 <!--
 <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">
