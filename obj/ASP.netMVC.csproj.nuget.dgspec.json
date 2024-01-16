@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\ASP.netMVC\\ASP.netMVC.csproj",
         "projectName": "ASP.netMVC",
         "projectPath": "D:\\ASP.netMVC\\ASP.netMVC.csproj",
-        "packagesPath": "C:\\Users\\mangcaugai1st\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mangc\\.nuget\\packages\\",
         "outputPath": "D:\\ASP.netMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mangcaugai1st\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mangc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

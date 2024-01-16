@@ -1,0 +1,182 @@
+﻿@{
+    ViewBag.Title = "ThinkPad_E590";
+    Layout = "_Layout";
+}
+@model List<string>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "A")">Bài viết</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Quánh giá ThinkPad E590 sau 4 sử dụng</li>
+    </ol>
+</nav>
+<div class="container">
+    <div class="text-left text-danger">
+        <h1>Đánh giá ThinkPad E590 sau 4 năm sử dụng</h1>
+    </div>
+    <div>
+        <p>
+            E590 là dòng ThinkPad giá rẻ thể hiện qua tiền tố “<span class="text-danger">E</span>”, bên cạnh có đó hậu tố “590” để thể hiện máy này có kích thước màn hình là 15.6″ và được sản xuất trong năm 2019.
+        </p>
+        <p>
+            Trên thị trường, có nhiều máy tuy bề ngoài mang mã E590 nhưng cấu hình bên trong thì khác nhau từ CPU, VGA, dung lượng RAM, SSD.
+        </p>
+        <p>Cấu hình mà máy của tôi đang có:</p>
+        <table class="table table-striped">
+            <tr>
+                <td>CPU</td>
+                <td>Intel® Core™ i5-8265U </td>
+            </tr>
+            <tr>
+                <td>Card đồ họa Onboard</td>
+                <td>Intel® UHD Graphics 620</td>
+            </tr>
+            <tr>
+                <td>Card đồ họa rời</td>
+                <td>AMD Radeon RX 550X</td>
+            </tr>
+        </table>
+        <h2 class="text-danger">Tôi dùng ThinkPad E590 vào việc gì?</h2>
+        <h3>_Lướt Web, xem Youtube</h3>
+        <p>Máy trang bị màn hình 15.6″ cùng tấm nền IPS với độ phân giải FHD nên nhìn lâu cũng không mỏi mắt, điểm trừ là độ sáng màn hình còn thấp, maximum là 250 nits.</p>
+        <h3>_Coding</h3>
+        <p>Tuy máy sử dụng chip U và sản xuất trên tiến trình 14nm nhưng lại dùng mượt mà với các IDE sau:</p>
+        <table class="table table-striped">
+            <tr>
+                <td class="align-middle">
+                    <h5>Visual Studio 2019-2022</h5>
+                </td>
+                <td>
+                    <img src="~/resource/image/Visual-Studio-Logo.png" alt="" class="img-fluid" style="max-width: 100px; height: auto">
+                </td>
+            </tr>
+            <tr>
+                <td class="align-middle">
+                    <h5>JetBrains PhpStorm</h5>
+                </td>
+                <td>
+                    <img src="~/resource/image/phpstorm_logo.png" alt="" class="img-fluid" style="max-width: 80px; height: auto">
+                </td>
+            </tr>
+            <tr>
+                <td class="align-middle">
+                    <h5>JetBrains Rider</h5>
+                </td>
+                <td>
+                    <img src="~/resource/image/rider_logo.png" alt="" class="img-fluid" style="max-width: 80px; height: auto">
+                </td>
+            </tr>
+        </table>
+        <h3>_Gaming</h3>
+        <p>
+            May mắn là máy có trang bị VGA tuy không mạnh nhưng đủ chơi game trong vài giờ liền. Dưới đây sẽ là một số tựa game mà tôi thường chơi trên máy này:
+        </p>
+        <table class="table table-striped">
+            <tr>
+                <td class="align-middle">
+                    <h5>Genshin Impact</h5>
+                </td>
+                <td class="text-center">
+                    <img src="~/resource/image/Genshin_Impact_Logo.webp" alt="" class="img-fluid" style="max-width: 150px; height: auto">
+                </td>
+            </tr>
+            <tr>
+                <td class="align-middle">
+                    <h5>NieR:Automata</h5>
+                </td>
+                <td class="text-center">
+                    <img src="~/resource/image/NierAutomata.webp" alt="" class="img-fluid" style="max-width: 150px; height: auto">
+                </td>
+            </tr>
+        </table>
+        <h3>_Distro Hopping</h3>
+        <p>Rất may mắn là hầu như tất cả dòng máy ThinkPad đều tương thích tốt với Linux so với nhiều hãng laptop khác. Tôi chưa biết lý do vì sao Lenovo lại tối ưu tốt Linux cho dòng ThinkPad như vậy, có thể họ đã kế thừa ý chí của IBM chăng?</p>
+        <p>Riêng ThinkPad E590 của tôi đã cài qua rất nhiều bản phân phối Linux (Linux distribution), sau đây là vài bản Linux nổi tiếng mà tôi đã trải nghiệm dùng trên ThinkPad E590: </p>
+        <table class="table table-bordered">
+            <tr>
+                <td>
+                    <img src="~/resource/image/@Model[0]" alt="" class="img-fluid w-50">
+                </td>
+                <td>
+                    <img src="~/resource/image/@Model[1]" alt="" class="img-fluid w-50">
+                </td>
+                <td>
+                    <img src="~/resource/image/@Model[2]" alt="" class="img-fluid w-50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="~/resource/image/@Model[3]" alt="" class="img-fluid w-50">
+                </td>
+                <td>
+                    <img src="~/resource/image/@Model[4]" alt="" class="img-fluid" w-50>
+                </td>
+                <td>
+                    <img src="~/resource/image/@Model[5]" alt="" class="img-fluid w-50">
+                </td>
+            </tr>
+        </table>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Vài năm trước, Windows đã tự biến mình thành một distro của Linux nhờ sự xuất hiện của Windows Subsystem for Linux (WSL). Windows chính là một phiên bản hoàn thiện nhất của Linux <span><img src="~/resource/emoji/big_smile.webp" alt=""></span>. (mấy anh fanboy Windows đừng quăng gạch em)</p>
+                <p>Và ThinkPad E590 tương thích rất tốt với WSL.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="~/resource/image/microsoftlovelinux.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <h3>_Tình trạng máy sau 4 năm sử dụng</h3>
+        <p>Cá nhân của tôi đánh giá đây là một cái máy rất trâu bò vì số giờ sử dụng mỗi ngày không dưới 10 tiếng chưa kể quãng đường di chuyển từ nơi này đến nơi khác rất dài.</p>
+        <p>Mọi thứ trên máy: màn hình, bản lề, bàn phím, loa, cổng kết nối, trackpoint, trackpad, cảm biến vân tay, đèn bàn phím đều hoạt động tốt.</p>
+        <hr style="margin-top: 1rem; margin-bottom: 1rem;border: 0; border-top: 2px solid rgba(0, 0, 0, 0.1);">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Tình trạng pin</h4>
+                <p>Đến thời điểm hiện tại thì nếu không cắm sạc thì máy chỉ trụ trong 1 tiếng rưỡi.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="~/resource/image/Battery report.png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <hr style="margin-top: 1rem; margin-bottom: 1rem;border: 0; border-top: 2px solid rgba(0, 0, 0, 0.1);">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="~/resource/image/SSD_Report.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h4>Tình trạng SSD</h4>
+                <p>Vì máy này sử dụng SSD M2 NVMe của WD Blue nên tôi sẽ dùng phần mềm của hãng tên là Western Digital Dashboard để check sức khỏe.</p>
+                <p>Nếu bạn sử dụng SSD của hãng khác mà không có phần mềm check của hãng thì bạn có thể dùng CrystalDiskInfo để thay thế.</p>
+            </div>
+        </div>
+        <h3>P/S: Tôi hài lòng với chiếc ThinkPad giá rẻ này, tôi tự hỏi rằng các dòng cao hơn như P, T, X sẽ bền hơn như thế nào nữa.</h3>
+        <hr style="height: 30px; background-color: red">
+        <h1 class="text-primary">Cập nhật tình hình của máy vào tháng 6 năm 2023</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="~/resource/image/@Model[6]" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Pin bị hư khiến cho máy bị sập nguồn liên tục nên tôi phải tháo máy ra ngắt kết nối pin với mainboard và tháo
+                    pin ra để sử dụng bình thường.
+                </p>
+                <p>
+                    Tôi dự đoán lý do mà pin hỏng là do việc luôn cắm sạc đầy <span style="color: red; font-weight: bold">100%</span>.
+                    Để gia tăng tuổi thọ cho pin thì bạn không nên sạc đầy 100% mà chỉ giữ tầm 70%-80% lượng điện trong pin thôi.
+                </p>
+                <p>
+                    Đối với ai xài laptop Lenovo nói chung và ThinkPad nói riêng thì nên cài đặt phần mềm Lenovo Vantage trong
+                    Microsoft Store để ngăn chặn pin sạc đầy 100%. <span style="font-weight: bold; color: red">Lưu ý: </span>dường
+                    như không thể cài đặt phần mềm này trong bản Windows LTSC vì Microsoft Store không tồn tại trong bản Windows
+                    LTSC.
+                </p>
+                <img src="~/resource/image/@Model[7]" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">Việc tìm mua pin để thay thế cũng không quá khó khăn.</div>
+        </div>
+    </div>
+</div>

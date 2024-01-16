@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "API Melafix";
+    Layout = "_Layout";
+}
+@model List<string>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "A")">Bài viết</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Quánh giá ThinkPad E590 sau 4 sử dụng</li>
+        </ol>
+    </nav>
+    <div class="text-left text-danger">
+        <h1>Đôi điều về API Melafix</h1>
+    </div>
+    <p>API Melafix là thuốc chuyên trị các bệnh do vi khuẩn cho thủy, hải sản được chiết xuất từ cây tràm.</p>
+    <div class="row">
+        <div class="col-md-9 mt-3">
+            <p>
+                Tôi khá chắc chắn là chữ "Mela" trong Melafix là tiền tố của Melaleuca (chi Tràm), chi tiết hơn là <strong>
+                    Melaleuca
+                    leucadendra L. (tràm lá dài)
+                </strong>.
+            </p>
+            <p>
+                Hai hoạt chất có tác dụng kháng khuẩn và diệt khuẩn trong dầu tràm được báo cáo là: Eucalyptol & α-Terpineol (
+                được
+                biết là nó có khả năng ức chế virus H5N1).
+            </p>
+        </div>
+        <div class="col-md-3">
+            <img src="~/resource/image/@Model[0]" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-7">
+            <p>
+                Đã có rất nhiều người đã hiểu lầm là sản phẩm thuốc này được chiết xuất từ lá trà do nhà sản xuất đã ghi
+                "<strong>
+                    Melaleuca
+                    (tea tree)
+                </strong>" nhưng không phải như vậy, mà "<strong>tea tree</strong>" ở đây là cây thuộc chi <strong>
+                    Tràm
+                    (Melaleuca)
+                </strong> không phải là <strong>Trà</strong>
+                của
+                chi <strong>Chè (Camellia)</strong>.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="~/resource/image/@Model[1]" alt="" class="img-fluid">
+        </div>
+    </div>
+</div>

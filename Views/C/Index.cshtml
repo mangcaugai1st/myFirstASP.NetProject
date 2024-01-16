@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Tools";
+    Layout = "_Layout";
+}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Tools</li>
+    </ol>
+</nav>
+<div class="row shadow-sm p-3 mb-5 bg-white rounded" id="accordion">
+    <div class="col-md-4">
+        <img src="~/resource/image/convert-temperature-icon.jpg" alt="" class="img-fluid"/>
+    </div>
+    <div class="col-md-8">
+        <h2>Temperature converter</h2>
+        <p>
+            <!--<a href="#myCollapse" data-bs-toggle="collapse">Toggle Element</a>-->
+            <button type="button" class="btn btn-danger ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse">Click to calculate!</button>
+        </p>
+    </div>
+    <div class="collapse" id="myCollapse">
+        <div class="col-md-8 float-end">
+            <form action="" method="post" class="">
+                <div class="row">
+                    <div class="col">
+                        <input type="number" class="form-control" name="nDegrees" value="">
+                    </div>
+                    <div class="col">
+                        <select name="temperatureUnit" id="" class="form-select">
+                            <option value="Fahrenheit">Fahrenheit</option>
+                            <option value="Celsius">Celsius</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <input type="submit" class="btn btn-primary" value="Convert now!" name="convert">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-8 float-end">
+            @if (ViewBag.ResultWithUnitSymbol!= null)
+            {
+                <h2>@ViewBag.ResultWithUnitSymbol</h2>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="row shadow-sm p-3 mb-5 bg-white rounded" id="accordion">
+    <div class="col-md-4">
+        <img src="~/resource/image/convert-temperature-icon.jpg" alt="" class="img-fluid"/>
+    </div>
+    <div class="col-md-8">
+        <h2>BMI</h2>
+        <p>
+            <button type="button" class="btn btn-danger ms-4" data-bs-toggle="collapse" data-bs-target="#myCollapse">Click to calculate!</button>
+        </p>
+    </div>
+    <div class="collapse" id="myCollapse">
+        <div class="col-md-8 float-end">
+            <form action="" method="post" class="">
+                <div class="row">
+                    <div class="col">
+                        <input type="number" class="form-control" name="nDegrees" value="">
+                    </div>
+                    <div class="col">
+                        <select name="temperatureUnit" id="" class="form-select">
+                            <option value="Fahrenheit">Fahrenheit</option>
+                            <option value="Celsius">Celsius</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <input type="submit" class="btn btn-primary" value="Convert now!" name="convert">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-8 float-end">
+            @if (ViewBag.ResultWithUnitSymbol!= null)
+            {
+                <h2>@ViewBag.ResultWithUnitSymbol</h2>
+            }
+        </div>
+    </div>
+</div>

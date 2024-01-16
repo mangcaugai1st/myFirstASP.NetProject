@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ASP.netMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ASP.netMVC/Views/Home/A.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBLmNzaHRtbA==
+[D:/ASP.netMVC/Views/A/API_Melafix.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVxBUElfTWVsYWZpeC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.netMVC/Views/Home/B.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCLmNzaHRtbA==
+[D:/ASP.netMVC/Views/A/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.netMVC/Views/A/ThinkPad_E590.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVxUaGlua1BhZF9FNTkwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.netMVC/Views/B/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.netMVC/Views/C/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.netMVC/Views/Home/Index.cshtml]
