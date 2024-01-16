@@ -253,8 +253,16 @@
       "PackagePath": "staticwebassets\\resource\\gif\\tumblr_f50494bc5811f9ed93096513dd7077ff_ed013a64_1280.gif"
     },
     {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\20230729_162524.png",
+      "PackagePath": "staticwebassets\\resource\\image\\20230729_162524.png"
+    },
+    {
       "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Battery report.png",
       "PackagePath": "staticwebassets\\resource\\image\\Battery report.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Camellia.jpg",
+      "PackagePath": "staticwebassets\\resource\\image\\Camellia.jpg"
     },
     {
       "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Fedora_Logo.png",
@@ -263,6 +271,18 @@
     {
       "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Genshin_Impact_Logo.webp",
       "PackagePath": "staticwebassets\\resource\\image\\Genshin_Impact_Logo.webp"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\LenovoVantage.png",
+      "PackagePath": "staticwebassets\\resource\\image\\LenovoVantage.png"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Melaleuca-leucadendra.webp",
+      "PackagePath": "staticwebassets\\resource\\image\\Melaleuca-leucadendra.webp"
+    },
+    {
+      "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\Melaleuca_leucadendra_-_Köhler–s_Medizinal-Pflanzen-092.jpg",
+      "PackagePath": "staticwebassets\\resource\\image\\Melaleuca_leucadendra_-_Köhler–s_Medizinal-Pflanzen-092.jpg"
     },
     {
       "Id": "D:\\ASP.netMVC\\wwwroot\\resource\\image\\NierAutomata.webp",
